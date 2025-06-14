@@ -1,5 +1,16 @@
 // Authorization token that must have been created previously. See : https://developer.spotify.com/documentation/web-api/concepts/authorization
+const isBrowser = () => ![typeof window, typeof document].includes('undefined');
 
+if (isBrowser()) {
+  // Code to execute only in a browser environment
+  console.log("This is running in a web browser.");
+
+  // Example: Manipulate the DOM
+  document.body.style.backgroundColor = 'lightblue';
+} else {
+  // Code to execute in a non-browser environment (e.g., Node.js)
+  console.log("This is running outside of a web browser.");
+}
 
 
 console.log("the script is working !!");

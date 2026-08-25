@@ -34,11 +34,11 @@ h1 {
 }
 
 .dropdown-menu{
-    background-color: #00718c;
+    background-color: rgba(20, 20, 20, 0.75);
 }
 
 .dropdown-item{
-    color: rgba(20, 20, 20, 0.75);
+    color: aliceblue;
 }
 
 .search-wrapper { 

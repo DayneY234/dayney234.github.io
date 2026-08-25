@@ -35,13 +35,14 @@ h1 {
 
 .dropdown-menu{
     background-color: rgba(20, 20, 20, 0.75);
-    background-clip: padding-box;
-    border-radius: 24px;
+    background-clip: border-box;
+    border-radius: 8px;
     box-shadow: 0 4px 12px 0 #0000004d;
 }
 .dropdown-menu.show{
-    border-radius: 24px;
+    border-radius: 8px;
     box-shadow: 0 4px 12px 0 #0000004d;
+    background-clip: border-box;
 }
 
 .dropdown-item{
